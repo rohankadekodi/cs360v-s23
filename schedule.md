@@ -18,17 +18,17 @@
 | 03/02 Thu | Cntr: Lightweight OS Containers + Slacker | [ATC 18 paper](https://www.usenix.org/conference/atc18/presentation/thalheim), [FAST 16 Slacker](https://www.usenix.org/conference/fast16/technical-sessions/presentation/harter)
 | 03/07 Tue | SCONE: Secure Linux Containers with Intel SGX | [OSDI 16 paper](https://www.usenix.org/system/files/conference/osdi16/osdi16-arnautov.pdf), [Slides](https://www.usenix.org/conference/osdi16/technical-sessions/presentation/arnautov)  | |  |
 | 03/09 Thu | Unikernels: Rise of the Virtual Library Operating System  | [ACM Queue article](https://www.seltzer.com/margo/teaching/CS508.19/papers/madhavapeddy13.pdf)  | | |
+| 03/14 Tue | **No class - Spring Break** | | |  |
+| 03/16 Thu | **No class - Spring Break** | | |  |
 | 03/21 Tue | Unikernels: Library OS for the cloud  | [ASPLOS 13 paper](http://mort.io/publications/pdf/asplos13-unikernels.pdf)  | |  |
-| 03/23 Thu | **No class - OSDI** | | |  |
-| 03/28 Tue | **No class - OSDI** | | |  |
-| 03/30 Thu | Serverless computing: the basics + Firecracker  | [Firecracker (NSDI 20)](https://www.usenix.org/conference/nsdi20/presentation/agache) | [Notes](notes/serverless.md)  | | 
-| 04/04 Tue |Occupy the Cloud: Distributed Computing for the 99%  + Serverless Computing: One Step Forward, Two Steps Back| [SOCC17](https://shivaram.org/publications/pywren-socc17.pdf), [CIDR19](http://cidrdb.org/cidr2019/papers/p119-hellerstein-cidr19.pdf) | [Notes](notes/serverless-arch.md), [Notes (Sama Ziki)](notes/arch-sama.md) |  |
-| 04/06 Thu | From Laptop to Lambda: Outsourcing Everyday Jobs to Thousands of Transient Functional Containers (no live class, see video on piazza) | [ATC19](https://cs.stanford.edu/~matei/papers/2019/usenix_atc_gg.pdf) | [Notes (Sama Ziki)](notes/gg.md) |  |
-| 04/11 Tue | SAND + A Berkeley View on Serverless Computing | [ATC18](https://www.usenix.org/conference/atc18/presentation/akkus), [Berkeley TR](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-3.pdf) |  |  |
-| 04/13 Thu | Shredder + Wrap-up | [SOCC19](http://utah.systems/papers/shredder.pdf) | |  |
-| 04/18 Tue | *Thanksgiving - no class* | | |  |
+| 03/23 Thu | Serverless computing: the basics + Firecracker  | [Firecracker (NSDI 20)](https://www.usenix.org/conference/nsdi20/presentation/agache) | [Notes](notes/serverless.md)  | | 
+| 03/28 Tue |Occupy the Cloud: Distributed Computing for the 99%  + Serverless Computing: One Step Forward, Two Steps Back| [SOCC17](https://shivaram.org/publications/pywren-socc17.pdf), [CIDR19](http://cidrdb.org/cidr2019/papers/p119-hellerstein-cidr19.pdf) | [Notes](notes/serverless-arch.md), [Notes (Sama Ziki)](notes/arch-sama.md) |  |
+| 03/30 Thu | From Laptop to Lambda: Outsourcing Everyday Jobs to Thousands of Transient Functional Containers (no live class, see video on piazza) | [ATC19](https://cs.stanford.edu/~matei/papers/2019/usenix_atc_gg.pdf) | [Notes (Sama Ziki)](notes/gg.md) |  |
+| 04/04 Tue | SAND + A Berkeley View on Serverless Computing | [ATC18](https://www.usenix.org/conference/atc18/presentation/akkus), [Berkeley TR](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-3.pdf) |  |  |
+| 04/06 Thu | Shredder + Wrap-up | [SOCC19](http://utah.systems/papers/shredder.pdf) | |  |
+| 04/11 Tue | *Thanksgiving - no class* | | |  |
+| 04/13 Thu | **In-class presentation about open-source project** | | |  |
+| 04/18 Tue | **In-class presentation about open-source project** | | |  |
 | 04/20 Thu | **In-class presentation about open-source project** | | |  |
-| 12/03 Thu | **In-class presentation about open-source project** | | |  |
-| 12/08 Tue | **In-class presentation about open-source project** | | |  |
 | 12/10 Thu | **In-class presentation about open-source project** | | |  |
 | 12/12 Sat | No class  | | | **Report due for Project 2 (open-source project)** |
