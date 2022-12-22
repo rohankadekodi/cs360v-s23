@@ -2,9 +2,11 @@
 |-----------|-------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|-----------------------------|----------------------------------------|
 | 01/10 Tue | Introduction  | | [Notes](notes/intro.md) | First day of class!  |
 | 01/12 Thu | Virtual Machines: the basics  | | [Notes](notes/vm-basics.md) |  |
+| 01/12 Thu | **Last day to add class without permission**  | |  |
 | 01/17 Tue | Virtualizing CPUs | [QEMU Internals Slides](https://www.csd.uoc.gr/~hy428/reading/qemu-internals-slides-may6-2014.pdf) | [Notes](notes/vm-cpu.md)  |  |
 | 01/19 Thu | Virtualizing DRAM | | [Notes](notes/vm-mem.md) | |
 | 01/24 Tue | Virtualizing I/O  | | [Notes](notes/vm-networking.md) |  |
+| 01/25 Wed | **Last day to drop class without permission, or add class with approval**  | |  |
 | 01/26 Thu | Para Virtualization | [Xen and the Art of Virtualization, SOSP 2003](https://cse.buffalo.edu/~stevko/courses/cse704/fall10/papers/2003-xensosp.pdf) | [Notes](notes/vm-para.md) |  |
 | 01/31 Tue | Virtualizing storage + security in VMs  | | [Notes](notes/vm-stor-sec.md) |  |
 | 02/02 Thu | The Turtles Project: Design and Implementation of Nested Virtualization | [OSDI 10 paper](https://www.usenix.org/event/osdi10/tech/full_papers/Ben-Yehuda.pdf)  | [Notes](notes/vm-nested.md) |  |
@@ -21,6 +23,7 @@
 | 03/14 Tue | **No class - Spring Break** | | |  |
 | 03/16 Thu | **No class - Spring Break** | | |  |
 | 03/21 Tue | Unikernels: Library OS for the cloud  | [ASPLOS 13 paper](http://mort.io/publications/pdf/asplos13-unikernels.pdf)  | |  |
+| 03/21 Tue | **Last day to withdraw or change class to pass/fail**  | |  |
 | 03/23 Thu | Serverless computing: the basics + Firecracker  | [Firecracker (NSDI 20)](https://www.usenix.org/conference/nsdi20/presentation/agache) | [Notes](notes/serverless.md)  | | 
 | 03/28 Tue |Occupy the Cloud: Distributed Computing for the 99%  + Serverless Computing: One Step Forward, Two Steps Back| [SOCC17](https://shivaram.org/publications/pywren-socc17.pdf), [CIDR19](http://cidrdb.org/cidr2019/papers/p119-hellerstein-cidr19.pdf) | [Notes](notes/serverless-arch.md), [Notes (Sama Ziki)](notes/arch-sama.md) |  |
 | 03/30 Thu | From Laptop to Lambda: Outsourcing Everyday Jobs to Thousands of Transient Functional Containers (no live class, see video on piazza) | [ATC19](https://cs.stanford.edu/~matei/papers/2019/usenix_atc_gg.pdf) | [Notes (Sama Ziki)](notes/gg.md) |  |
