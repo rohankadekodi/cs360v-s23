@@ -19,11 +19,11 @@ Welcome to CS 370V Virtualization! This is a course designed to expose undergrad
 
 Aside from teaching you the concepts behind virtualization, this course is meant to get you familiar with the commonly used tools and software. You should get used to using virtual machines, and containers. You will gain more experience with Git, and with real-world code bases.
 
-**Piazza Link: [piazza.com/utexas/fall2020/cs360v](https://piazza.com/utexas/fall2020/cs360v)** 
+**Piazza Link: [piazza.com/utexas/spring2023/cs360v](https://piazza.com/utexas/spring2023/cs360v)** 
 
 **Canvas Link: [https://utexas.instructure.com/courses/1290530](https://utexas.instructure.com/courses/1290530)** 
 
-**Class Timing and Location**: TuTh 2 pm - 3:30pm on **[Zoom](https://utexas.zoom.us/j/98279961506)**
+**Class Timing and Location**: TuTh 11am - 12:30pm on **[Zoom](https://utexas.zoom.us/j/98279961506)**
 
 **[Schedule](https://github.com/rohankadekodi/cs360v-s23/blob/master/schedule.md)**
 
@@ -43,7 +43,7 @@ Office hours: Monday 5-6 PM CST, **[Zoom](https://utexas.zoom.us/j/96718513620)*
 
 **50%** Project: implementing your own hypervisor <br>
 **30%** Project: contributing to an open-source repository related to virtualization <br>
-**20%** Presentations: Present a paper on Virtualization <br>
+**20%** Presentations: Present a paper / system on Virtualization <br>
 
 ### Extra Credit
 
@@ -76,7 +76,7 @@ https://ebookcentral-proquest-com.ezproxy.lib.utexas.edu/lib/utxa/detail.action?
 <p>The first project will involve building parts of your own
   hypervisor. You will need to know the basics of operating systems,
   C, and assembly to complete this project. README for project one, lab-1:
-  https://github.com/vijay03/cs360v-f20/blob/master/Project1.md </p>
+  https://github.com/rohankadekodi/cs360v-s23/blob/master/Project1.md </p>
 
 <p>The second project is open-ended, and will involve adding a new
   feature to any open-source project related to virtualization and
@@ -84,16 +84,15 @@ https://ebookcentral-proquest-com.ezproxy.lib.utexas.edu/lib/utxa/detail.action?
   proposal approved, and then present on what they did at the end of
   the semester. You are encouraged to add a useful feature to an
   open-source project (and potentially get it merged with the code
-  base). More details here: https://github.com/vijay03/cs360v-f20/blob/master/project-open-source.md. 
+  base). More details here: https://github.com/rohankadekodi/cs360v-s23/blob/master/project-open-source.md. 
 </p>
 
 <p>More details about the projects will be added shortly.</p>
 
 ### Deadlines (tentative)
 
-**Oct 25** Project 1 due <br>
-**Dec 3-5** In-class presentations about open-source contributions <br>
-**Dec 12** Report due about open-source contributions <br>
+**Mar 24** Project 1 due <br>
+**Apr 28** Report due about open-source contributions <br>
 
 ### Course Policies
 
