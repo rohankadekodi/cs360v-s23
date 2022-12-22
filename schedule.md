@@ -5,7 +5,7 @@
 | 01/17 Tue | Virtualizing CPUs | [QEMU Internals Slides](https://www.csd.uoc.gr/~hy428/reading/qemu-internals-slides-may6-2014.pdf) | [Notes](notes/vm-cpu.md)  |  |
 | 01/19 Thu | Virtualizing DRAM | | [Notes](notes/vm-mem.md) | |
 | 01/24 Tue | Virtualizing I/O  | | [Notes](notes/vm-networking.md) |  |
-| 01/25 Wed | **Last day to drop class without permission, or add class with approval**  | |  |
+| 01/25 Wed | | | | **Last day to drop class without permission, or add class with approval** |
 | 01/26 Thu | Student Presentations - 1 | |  |
 | 01/31 Tue | Para Virtualization | [Xen and the Art of Virtualization, SOSP 2003](https://cse.buffalo.edu/~stevko/courses/cse704/fall10/papers/2003-xensosp.pdf) | [Notes](notes/vm-para.md) |  |
 | 02/02 Thu | Virtualizing storage + security in VMs  | | [Notes](notes/vm-stor-sec.md) |  |
@@ -21,8 +21,7 @@
 | 03/09 Thu | Student Presenatations - 3  | |  |
 | 03/14 Tue | **No class - Spring Break** | | |  |
 | 03/16 Thu | **No class - Spring Break** | | |  |
-| 03/21 Tue | Unikernels: Rise of the Virtual Library Operating System  | [ACM Queue article](https://www.seltzer.com/margo/teaching/CS508.19/papers/madhavapeddy13.pdf)  | | |
-| 03/21 Tue | **Last day to withdraw or change class to pass/fail**  | |  |
+| 03/21 Tue | Unikernels: Rise of the Virtual Library Operating System  | [ACM Queue article](https://www.seltzer.com/margo/teaching/CS508.19/papers/madhavapeddy13.pdf)  | | **Last day to withdraw or change class to pass/fail** |
 | 03/23 Thu | Unikernels: Library OS for the cloud  | [ASPLOS 13 paper](http://mort.io/publications/pdf/asplos13-unikernels.pdf)  | |  |
 | 03/28 Tue | Serverless computing: the basics + Firecracker  | [Firecracker (NSDI 20)](https://www.usenix.org/conference/nsdi20/presentation/agache) | [Notes](notes/serverless.md)  | | 
 | 03/30 Thu |Occupy the Cloud: Distributed Computing for the 99%  + Serverless Computing: One Step Forward, Two Steps Back| [SOCC17](https://shivaram.org/publications/pywren-socc17.pdf), [CIDR19](http://cidrdb.org/cidr2019/papers/p119-hellerstein-cidr19.pdf) | [Notes](notes/serverless-arch.md), [Notes (Sama Ziki)](notes/arch-sama.md) |  |
