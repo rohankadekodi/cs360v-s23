@@ -11,7 +11,7 @@
 | 02/02 Thu | Virtualizing storage + security in VMs  | | [Notes](notes/vm-stor-sec.md) |  |
 | 02/07 Tue | Nested Virtualization | | [Notes](notes/vm-nested.md) |  |
 | 02/09 Thu | Review |  |
-| 02/14 Tue | Student Presentations - 2 | (1) [Turtles Project, OSDI 10](https://www.usenix.org/event/osdi10/tech/full_papers/Ben-Yehuda.pdf) |  |
+| 02/14 Tue | Student Presentations - 2 | (1) [Turtles Project, OSDI 10](https://www.usenix.org/event/osdi10/tech/full_papers/Ben-Yehuda.pdf), (2) [CloudVisor](https://www.sigops.org/s/conferences/sosp/2011/current/2011-Cascais/printable/15-zhang.pdf), (3) [TwinVisor, SOSP 2021](https://ipads.se.sjtu.edu.cn/_media/publications/twinvisor-sosp21.pdf) |  |
 | 02/16 Thu | Containers: the basics  | | [Notes](notes/container-basics.md) |  |
 | 02/21 Tue | The technologies behind containers  | | [Notes](notes/container-nc.md) |  |
 | 02/23 Thu | Container orchestration frameworks  | | [Notes](notes/container-orch.md) |  |
