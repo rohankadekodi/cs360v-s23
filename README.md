@@ -23,7 +23,7 @@ Aside from teaching you the concepts behind virtualization, this course is meant
 
 **Canvas Link: [https://utexas.instructure.com/courses/1290530](https://utexas.instructure.com/courses/1290530)** 
 
-**Class Timing and Location**: TuTh 11am - 12:30pm in PAR 203**
+**Class Timing and Location: TuTh 11am - 12:30pm in PAR 203**
 
 **[Schedule](https://github.com/rohankadekodi/cs360v-s23/blob/master/schedule.md)**
 
