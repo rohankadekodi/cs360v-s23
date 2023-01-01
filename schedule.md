@@ -9,9 +9,9 @@
 | 01/26 Thu | Student Presentations - 1 | [Disco, SOSP 1997](https://klasses.cs.uchicago.edu/archive/2019/winter/33100-1/papers/disco-sosp97.pdf), [VMware Virtualization, TOCS 2012](https://infoscience.epfl.ch/record/183742/files/tocs12-vmware.pdf), [ELI, ASPLOS 2012](https://techtc.cs.technion.ac.il/news/2014/691/docs/ELI.pdf) |  |
 | 01/31 Tue | Para Virtualization | [Xen and the Art of Virtualization, SOSP 2003](https://cse.buffalo.edu/~stevko/courses/cse704/fall10/papers/2003-xensosp.pdf) | [Notes](notes/vm-para.md) |  |
 | 02/02 Thu | Virtualizing storage + security in VMs  | | [Notes](notes/vm-stor-sec.md) |  |
-| 02/07 Tue | The Turtles Project: Design and Implementation of Nested Virtualization | [OSDI 10 paper](https://www.usenix.org/event/osdi10/tech/full_papers/Ben-Yehuda.pdf)  | [Notes](notes/vm-nested.md) |  |
+| 02/07 Tue | Nested Virtualization | | [Notes](notes/vm-nested.md) |  |
 | 02/09 Thu | Review |  |
-| 02/14 Tue | Student Presentations - 2 | |  |
+| 02/14 Tue | Student Presentations - 2 | [Turtles Project, OSDI 10](https://www.usenix.org/event/osdi10/tech/full_papers/Ben-Yehuda.pdf) |  |
 | 02/16 Thu | Containers: the basics  | | [Notes](notes/container-basics.md) |  |
 | 02/21 Tue | The technologies behind containers  | | [Notes](notes/container-nc.md) |  |
 | 02/23 Thu | Container orchestration frameworks  | | [Notes](notes/container-orch.md) |  |
