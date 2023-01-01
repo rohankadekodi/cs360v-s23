@@ -18,7 +18,7 @@
 | 02/28 Tue |  My VM is Lighter (and Safer) than your Container  | [SOSP 17 paper](http://cnp.neclab.eu/projects/lightvm/lightvm.pdf), [Slides](https://www.sigops.org/s/conferences/sosp/2017/slides/lightvm-sosp17-slides.pptx)  | |  |
 | 03/02 Thu | Cntr: Lightweight OS Containers + Slacker | [ATC 18 paper](https://www.usenix.org/conference/atc18/presentation/thalheim), [FAST 16 Slacker](https://www.usenix.org/conference/fast16/technical-sessions/presentation/harter)
 | 03/07 Tue | SCONE: Secure Linux Containers with Intel SGX | [OSDI 16 paper](https://www.usenix.org/system/files/conference/osdi16/osdi16-arnautov.pdf), [Slides](https://www.usenix.org/conference/osdi16/technical-sessions/presentation/arnautov)  | |  |
-| 03/09 Thu | Student Presentations - 3  | |  |
+| 03/09 Thu | Student Presentations - 3  | (1) [Container-based OS Virtualization, EuroSys 2017](https://www.cs.toronto.edu/~demke/2227/S.14/Papers/p275-soltesz.pdf), (2) [CAP-VM, OSDI 2022](https://www.usenix.org/system/files/osdi22-sartakov.pdf), (3) [Protean](https://www.usenix.org/system/files/osdi20-hadary.pdf) |  |
 | 03/14 Tue | **No class - Spring Break** | | |  |
 | 03/16 Thu | **No class - Spring Break** | | |  |
 | 03/21 Tue | Unikernels: Rise of the Virtual Library Operating System  | [ACM Queue article](https://www.seltzer.com/margo/teaching/CS508.19/papers/madhavapeddy13.pdf)  | | **Last day to withdraw or change class to pass/fail** |
