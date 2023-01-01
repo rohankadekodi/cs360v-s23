@@ -23,7 +23,7 @@ Aside from teaching you the concepts behind virtualization, this course is meant
 
 **Canvas Link: [https://utexas.instructure.com/courses/1290530](https://utexas.instructure.com/courses/1290530)** 
 
-**Class Timing and Location**: TuTh 11am - 12:30pm on **[Zoom](https://utexas.zoom.us/j/98279961506)**
+**Class Timing and Location**: TuTh 11am - 12:30pm in PAR 203**
 
 **[Schedule](https://github.com/rohankadekodi/cs360v-s23/blob/master/schedule.md)**
 
@@ -157,7 +157,7 @@ do it at all.
 ### Acknowledgements
 
 This course is inspired by (and uses material from) courses taught
-  by <a href="http://www.cs.unc.edu/~porter/">Don
+  by <a href="https://www.cs.utexas.edu/~vijay">Vijay Chidambaram</a>, <a href="http://www.cs.unc.edu/~porter/">Don
   Porter</a>, <a href="www.cs.utexas.edu/~ans">Alison
   Norman</a>, <a href="http://pages.cs.wisc.edu/~remzi/">Remzi
   Arpaci-Dusseau</a>, <a href="http://www.cs.utexas.edu/~simon/">Simon
