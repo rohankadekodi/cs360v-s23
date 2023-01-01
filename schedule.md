@@ -29,5 +29,5 @@
 | 04/06 Thu | SAND + A Berkeley View on Serverless Computing | [ATC18](https://www.usenix.org/conference/atc18/presentation/akkus), [Berkeley TR](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-3.pdf) |  |  |
 | 04/11 Tue | Shredder | [SOCC19](http://utah.systems/papers/shredder.pdf) | |  |
 | 04/13 Thu | Spot VMs | | |
-| 04/18 Tue | Harvest VMs + Wrap-up | | |
-| 04/20 Thu | Student Presentations - 4 | (1) [Serverless on HarvestVM, SOSP 2021](https://www.microsoft.com/en-us/research/uploads/prod/2021/09/sosp21-final604.pdf), (2) [SLOs for Resorce-Harvesting VMs, OSDI 2020](https://www.usenix.org/system/files/osdi20-paper-ambati.pdf) | |  |
+| 04/18 Tue | Harvest VMs | | |
+| 04/20 Thu | Student Presentations - 4 + Wrap-up | (1) [Serverless on HarvestVM, SOSP 2021](https://www.microsoft.com/en-us/research/uploads/prod/2021/09/sosp21-final604.pdf), (2) [SLOs for Resorce-Harvesting VMs, OSDI 2020](https://www.usenix.org/system/files/osdi20-paper-ambati.pdf) | |  |
