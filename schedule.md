@@ -11,14 +11,14 @@
 | 02/02 Thu | Virtualizing storage + security in VMs  | | [Notes](notes/vm-stor-sec.md) |  |
 | 02/07 Tue | Nested Virtualization | | [Notes](notes/vm-nested.md) |  |
 | 02/09 Thu | Review |  |
-| 02/14 Tue | Student Presentations - 2 | (1) [Turtles Project, OSDI 10](https://www.usenix.org/event/osdi10/tech/full_papers/Ben-Yehuda.pdf), (2) [CloudVisor, SOSP 2011](https://www.sigops.org/s/conferences/sosp/2011/current/2011-Cascais/printable/15-zhang.pdf), (3) [TwinVisor, SOSP 2021](https://ipads.se.sjtu.edu.cn/_media/publications/twinvisor-sosp21.pdf) |  |
+| 02/14 Tue | Student Presentations - 2 | (1) [Turtles Project, OSDI 10](https://www.usenix.org/event/osdi10/tech/full_papers/Ben-Yehuda.pdf), (2) [Protean, OSDI 2020](https://www.usenix.org/system/files/osdi20-hadary.pdf), (3) [TwinVisor, SOSP 2021](https://ipads.se.sjtu.edu.cn/_media/publications/twinvisor-sosp21.pdf) |  |
 | 02/16 Thu | Containers: the basics  | | [Notes](notes/container-basics.md) |  |
 | 02/21 Tue | The technologies behind containers  | | [Notes](notes/container-nc.md) |  |
 | 02/23 Thu | Container orchestration frameworks  | | [Notes](notes/container-orch.md) |  |
 | 02/28 Tue |  My VM is Lighter (and Safer) than your Container  | [SOSP 17 paper](http://cnp.neclab.eu/projects/lightvm/lightvm.pdf), [Slides](https://www.sigops.org/s/conferences/sosp/2017/slides/lightvm-sosp17-slides.pptx)  | |  |
 | 03/02 Thu | Cntr: Lightweight OS Containers + Slacker | [ATC 18 paper](https://www.usenix.org/conference/atc18/presentation/thalheim), [FAST 16 Slacker](https://www.usenix.org/conference/fast16/technical-sessions/presentation/harter)
 | 03/07 Tue | SCONE: Secure Linux Containers with Intel SGX | [OSDI 16 paper](https://www.usenix.org/system/files/conference/osdi16/osdi16-arnautov.pdf), [Slides](https://www.usenix.org/conference/osdi16/technical-sessions/presentation/arnautov)  | |  |
-| 03/09 Thu | Student Presentations - 3  | (1) [Container-based OS Virtualization, EuroSys 2017](https://www.cs.toronto.edu/~demke/2227/S.14/Papers/p275-soltesz.pdf), (2) [CAP-VM, OSDI 2022](https://www.usenix.org/system/files/osdi22-sartakov.pdf), (3) [Protean, OSDI 2020](https://www.usenix.org/system/files/osdi20-hadary.pdf) |  |
+| 03/09 Thu | Student Presentations - 3  | (1) [Container-based OS Virtualization, EuroSys 2017](https://www.cs.toronto.edu/~demke/2227/S.14/Papers/p275-soltesz.pdf), (2) [CAP-VM, OSDI 2022](https://www.usenix.org/system/files/osdi22-sartakov.pdf) |  |
 | 03/14 Tue | **No class - Spring Break** | | |  |
 | 03/16 Thu | **No class - Spring Break** | | |  |
 | 03/21 Tue | Unikernels: Rise of the Virtual Library Operating System  | [ACM Queue article](https://www.seltzer.com/margo/teaching/CS508.19/papers/madhavapeddy13.pdf)  | | **Last day to withdraw or change class to pass/fail** |
