@@ -25,7 +25,7 @@ Aside from teaching you the concepts behind virtualization, this course is meant
 
 **Class Timing and Location: TuTh 11am - 12:30pm in PAR 203**
 
-**[Schedule](https://github.com/rohankadekodi/cs360v-s23/blob/master/schedule.md)**
+**[Schedule](https://github.com/rohankadekodi/cs360v-s23/blob/main/schedule.md)**
 
 **Instructor: [Rohan Kadekodi](https://www.cs.utexas.edu/~rak/)**
 
