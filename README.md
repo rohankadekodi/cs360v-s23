@@ -70,15 +70,12 @@ https://ebookcentral-proquest-com.ezproxy.lib.utexas.edu/lib/utxa/detail.action?
 
 ### Projects
 
-<p>There will be two big projects in the course. Students will work in
-  groups of two or three for both projects.</p>
+<p>There will be 5 assignments and one big project in the course. Students will work in groups of two or three for the assignments and the project. </p>
 
-<p>The first project will involve building parts of your own
-  hypervisor. You will need to know the basics of operating systems,
-  C, and assembly to complete this project. README for project one, lab-1:
-  https://github.com/rohankadekodi/cs360v-s23/blob/master/Project1.md </p>
 
-<p>The second project is open-ended, and will involve adding a new
+<p>The assignments will involve building parts of your own hypervisor. You will need to know the basics of operating systems, C, and assembly to complete these assignments.</p>
+
+<p>The project is open-ended, and will involve adding a new
   feature to any open-source project related to virtualization and
   containers. Students will propose what they want to do, get the
   proposal approved, and then present on what they did at the end of
@@ -88,11 +85,6 @@ https://ebookcentral-proquest-com.ezproxy.lib.utexas.edu/lib/utxa/detail.action?
 </p>
 
 <p>More details about the projects will be added shortly.</p>
-
-### Deadlines (tentative)
-
-**Mar 24** Project 1 due <br>
-**Apr 28** Report due about open-source contributions <br>
 
 ### Course Policies
 
