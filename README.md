@@ -31,13 +31,13 @@ Aside from teaching you the concepts behind virtualization, this course is meant
 
 Email: rak@cs.utexas.edu
 
-Office hours: 2-3 PM CST Friday, **[Zoom](https://utexas.zoom.us/j/93495500868)**
+Office hours: 5-6 PM CST Thursday, **In-person (GDC 6.440)**
 
 **TA: [Hayley LeBlanc](https://www.cs.utexas.edu/~hleblanc/)**
 
 Email: hleblanc@utexas.edu
 
-Office hours: Monday 5-6 PM CST, **[Zoom](https://utexas.zoom.us/j/96718513620)**
+Office hours: Monday 5-6 PM CST, **In-person (GDC 6.440)**
 
 ### Grading 
 
