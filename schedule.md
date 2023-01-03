@@ -3,8 +3,8 @@
 | 01/10 Tue | Introduction  | | [Notes](notes/intro.md) | First day of class!  |
 | 01/12 Thu | Virtual Machines: the basics  | | [Notes](notes/vm-basics.md) | **Last day to add class without permission** |
 | 01/17 Tue | Virtualizing CPUs | [QEMU Internals Slides](https://www.csd.uoc.gr/~hy428/reading/qemu-internals-slides-may6-2014.pdf) | [Notes](notes/vm-cpu.md)  |  |
-| 01/19 Thu | Virtualizing DRAM | | [Notes](notes/vm-mem.md) | **Lab 0 due** |
-| 01/24 Tue | Virtualizing I/O  | | [Notes](notes/vm-networking.md) |  |
+| 01/19 Thu | Virtualizing DRAM | | [Notes](notes/vm-mem.md) |  |
+| 01/24 Tue | Virtualizing I/O  | | [Notes](notes/vm-networking.md) | **Lab 0 due** |
 | 01/25 Wed | | | | **Last day to drop class without permission, or add class with approval** |
 | 01/26 Thu | Student Presentations - 1 | (1) [Disco, SOSP 1997](https://klasses.cs.uchicago.edu/archive/2019/winter/33100-1/papers/disco-sosp97.pdf), (2) [VMware Virtualization, TOCS 2012](https://infoscience.epfl.ch/record/183742/files/tocs12-vmware.pdf), (3) [ELI, ASPLOS 2012](https://techtc.cs.technion.ac.il/news/2014/691/docs/ELI.pdf) |  |
 | 01/31 Tue | Para Virtualization | [Xen and the Art of Virtualization, SOSP 2003](https://cse.buffalo.edu/~stevko/courses/cse704/fall10/papers/2003-xensosp.pdf) | [Notes](notes/vm-para.md) |  |
@@ -31,3 +31,4 @@
 | 04/13 Thu | Spot VMs | | |
 | 04/18 Tue | Harvest VMs | | |
 | 04/20 Thu | Student Presentations - 4 + Wrap-up | (1) [Serverless on HarvestVM, SOSP 2021](https://www.microsoft.com/en-us/research/uploads/prod/2021/09/sosp21-final604.pdf), (2) [SLOs for Resorce-Harvesting VMs, OSDI 2020](https://www.usenix.org/system/files/osdi20-paper-ambati.pdf) | |  |
+| 04/27 Thu |  | | | **Project 2 due** |
