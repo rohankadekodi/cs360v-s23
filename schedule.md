@@ -3,7 +3,7 @@
 | 01/10 Tue | Introduction  | | [Notes](notes/intro.md) | First day of class!  |
 | 01/12 Thu | Virtual Machines: the basics  | | [Notes](notes/vm-basics.md) | **Last day to add class without permission** |
 | 01/17 Tue | Virtualizing CPUs | [QEMU Internals Slides](https://www.csd.uoc.gr/~hy428/reading/qemu-internals-slides-may6-2014.pdf) | [Notes](notes/vm-cpu.md)  |  |
-| 01/19 Thu | Virtualizing DRAM | | [Notes](notes/vm-mem.md) | |
+| 01/19 Thu | Virtualizing DRAM | | [Notes](notes/vm-mem.md) | **Lab 0 due** |
 | 01/24 Tue | Virtualizing I/O  | | [Notes](notes/vm-networking.md) |  |
 | 01/25 Wed | | | | **Last day to drop class without permission, or add class with approval** |
 | 01/26 Thu | Student Presentations - 1 | (1) [Disco, SOSP 1997](https://klasses.cs.uchicago.edu/archive/2019/winter/33100-1/papers/disco-sosp97.pdf), (2) [VMware Virtualization, TOCS 2012](https://infoscience.epfl.ch/record/183742/files/tocs12-vmware.pdf), (3) [ELI, ASPLOS 2012](https://techtc.cs.technion.ac.il/news/2014/691/docs/ELI.pdf) |  |
