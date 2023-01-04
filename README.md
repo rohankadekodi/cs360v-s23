@@ -54,9 +54,11 @@ You can earn upto **1%** extra credit if your patches get accepted to any open-s
 
 Note that these extra-credit activities will also serve you well in hunting for jobs or internships: getting a patch accepted in a project is impressive.
 
-### Quizzes
+### Slip Days
 
-There will be ungraded quizzes throughout the course to cement your understanding of the material.
+Each group receives 5 slip days that can be used to submit Project 1 labs late without penalty. Slip days may be used across any combination of assignments. Please indicate whether you are using slip days in the Markdown document submitted with each lab. 
+
+We encourage you to use slip days sparingly. The Project 1 labs build on each other and cannot be completed concurrently, so using many slip days early makes it difficult to complete subsequent labs on time. 
 
 ### Reading
 
@@ -70,21 +72,20 @@ https://ebookcentral-proquest-com.ezproxy.lib.utexas.edu/lib/utxa/detail.action?
 
 ### Projects
 
-<p>There will be 5 assignments and one big project in the course. Students will work in groups of two or three for the assignments and the project. </p>
+<p>There are two projects in this course. Project 1 consists of five labs and Project 2 involves working on an open-source repository related to virtualization. Students will work in groups of two or three for both projects</p>
 
 
-<p>The assignments will involve building parts of your own hypervisor. You will need to know the basics of operating systems, C, and assembly to complete these assignments.</p>
+<p>The Project 1 labs will involve building parts of your own hypervisor. You will need to know the basics of operating systems, C, and assembly to complete these assignments.</p>
 
-<p>The project is open-ended, and will involve adding a new
+<p>Project 2 is open-ended, and will involve adding a new
   feature to any open-source project related to virtualization and
   containers. Students will propose what they want to do, get the
-  proposal approved, and then present on what they did at the end of
-  the semester. You are encouraged to add a useful feature to an
+  proposal approved, and then submit a report on what they did at the end of the semester. You are encouraged to add a useful feature to an
   open-source project (and potentially get it merged with the code
-  base). More details here: https://github.com/rohankadekodi/cs360v-s23/blob/master/project-open-source.md. 
+  base). More details here: https://github.com/rohankadekodi/cs360v-s23/blob/master/project2.md. 
 </p>
 
-<p>More details about the projects will be added shortly.</p>
+<!-- <p>More details about the projects will be added shortly.</p> -->
 
 ### Course Policies
 
@@ -136,7 +137,7 @@ on the right side of the line. If you are not sure about something,
 
 #### Late Policy
 
-1. All projects/assignments must be submitted in class the day they
+1. All projects/assignments must be submitted the day they
 are due.
 2. For each day a project/assignment is late, you lose 5% of the
   points for that project. So if you submit two days after the
