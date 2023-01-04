@@ -20,17 +20,17 @@ Search for "help wanted" or "good first issue" tags on these repositories to fin
 
 # Deadlines
 
-These deadlines are tentative.
+We **strongly** recommend discussing issues with course staff and reaching out to developers much earlier than these deadlines. Maintainers may take a long time to respond and issues may end up being more challenging than initially expected. Course staff must approve all issues. A small part of your grade on Project 2 comes from hitting these deadlines. 
 
-TODO: deadlines for submitting issue proposals to course staff, finalizing issues, and submitting report. 
+February 23, 2023: Deadline to propose issues to course staff on Piazza.
+March 23, 2023: Deadline to have a confirmed list of issues and responses from developers. Submit the final list of issues and links to Github issues (if possible) on Canvas.
 
 # Grading rubric
 
-30% of your grade comes from Project 2. 
+30% of your grade comes from Project 2. It is worth 60 total points.
 
-Tentative rubric:
-- x points come from submitting your proposed issues to course staff by (TODO: deadline)
-- y points come from your final report on the issues, due **April 27, 2023**.
-- z (5-10% of grade?) points come from completing the chosen issues or for a detailed explanation of challenges that prevented you from completing the issues. This does not include whether or not your changes are merged. We will not dock points for unforeseen challenges that prevent a group from finishing an issue (e.g., technical limitations that arose late in the project, a higher level of complexity than initially predicted, etc.) but we do expect an in-depth explanation of why an issue could not be finished by the due date.  
+Rubric:
+- 2.5 points each for submitting your issue proposal and confirmation to course staff by the deadlines above (5 points total).
+- 55 points for the final report. More information on what the report should contain will be added soon.
 
 If you get any issue merged into an open-source repository related to virtualization, you will receive extra credit! The issue can be related to Project 2, but it does not have to be. Submit a link to merged pull request the extra credit assignments on Canvas to receive credit.
