@@ -12,12 +12,12 @@ Presentations on research papers should address the following questions:
 - What are the limitations of the paper's approach?
 
 ## System presentations
-Presentations on systems (e.g. QEMU, Kubernetes) should address the following questions:
+Presentations on systems (e.g. QEMU, Kubernetes) should include the following content:
 - What problem does the system solve? In what contexts is this system used?
 - What is the historical context of the system? What systems preceded (and/or succeeded it)? 
 - What virtualization technologies and approaches that we have discussed in class does the system use? 
 - What are the major limitations/criticisms of the system? 
-- If it is feasible given available resources and time, these presentations may include a demo. 
+- A demo of the system.
 
 # Grading
 
