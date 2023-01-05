@@ -30,7 +30,7 @@ March 23, 2023: Deadline to have a confirmed list of issues and responses from d
 30% of your grade comes from Project 2. It is worth 60 total points.
 
 Rubric:
-- 2.5 points each for submitting your issue proposal and confirmation to course staff by the deadlines above (5 points total).
-- 55 points for the final report. More information on what the report should contain will be added soon.
+- 5 points each for submitting your issue proposal and confirmation to course staff by the deadlines above (10 points total).
+- 50 points for the final report. More information on what the report should contain will be added soon.
 
 If you get any issue merged into an open-source repository related to virtualization, you will receive extra credit! The issue can be related to Project 2, but it does not have to be. Submit a link to merged pull request the extra credit assignments on Canvas to receive credit.
