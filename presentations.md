@@ -1,6 +1,6 @@
 # Presentations
 
-Your group will do a presentation on a paper or system for the class. Each group will present once. Presentations should last 15-20 minutes. Each student in the group must present for an equal amount of time. You may present in whatever manner you feel works best for your topic (slides, whiteboard talk, demo, etc.)
+Your group will do a presentation on a paper or system for the class. Each group will present once. Presentations should last approximately 15 minutes. Each student in the group must present for an equal amount of time. You may present in whatever manner you feel works best for your topic (slides, whiteboard talk, demo, etc.)
 
 ## Paper presentations
 Presentations on research papers should address the following questions:
