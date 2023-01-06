@@ -4,6 +4,8 @@ For project 2, you will work on an open-source repository related to virtualizat
 
 Students learn a lot from this project, but it takes a lot of time to set up. We recommend starting on this project **early** and working on it concurrently with Project 1. Project 1's last due date is about a month before Project 2 is due, and Project 2 cannot be completed in a month. You will need to budget time to communicate with maintainers (who may or may not respond in a timely manner), to understand the components of the large codebases you will be working with, and to implement the changes. 
 
+You will complete Project 2 in a group of 2-4 students. Please sign up for an existing Project 2 group on the "People" tab on Canvas. Your Project 2 group does not need to be the same as your Project 1 or Presentation groups.
+
 # Recommended open-source projects
 
 This is not an exhaustive list. Feel free to explore other projects!
