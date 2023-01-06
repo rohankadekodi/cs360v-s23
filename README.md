@@ -56,7 +56,7 @@ Note that these extra-credit activities will also serve you well in hunting for 
 
 ### Slip Days
 
-Each group receives 5 slip days that can be used to submit Project 1 labs late without penalty. Slip days may be used across any combination of assignments. Please indicate whether you are using slip days in the Markdown document submitted with each lab. 
+Each group receives 7 slip days that can be used to submit Project 1 labs late without penalty. Slip days may be used across any combination of assignments. Please indicate whether you are using slip days in the Markdown document submitted with each lab. Slip days may not be used on Project 2 or your presentation. Please contact course staff directly in case of illness, family emergency, etc. impacting these assignments. 
 
 We encourage you to use slip days sparingly. The Project 1 labs build on each other and cannot be completed concurrently, so using many slip days early makes it difficult to complete subsequent labs on time. 
 
