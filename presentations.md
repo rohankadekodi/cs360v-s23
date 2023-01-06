@@ -23,4 +23,10 @@ Presentations on systems (e.g. QEMU, Kubernetes) should include the following co
 
 This presentation is worth 20% of your grade. You should read your paper or research your system in depth, along with skimming related work for context. The goal of the presentation should be to present the key contributions, ideas, strengths, and weaknesses of your paper or system in an accessible way.
 
-There are 40 points total to earn on this assignment. 25 points come from your summary of the key points of the paper/system and putting it in context with related work. 15 points come from critical analysis and commentary of the paper/system - its strengths, weaknesses, and limitations. 
+The presentation is worth 40 points. Grades are broken down as follows:
+- Discussion of key problem solved by the paper/system: 10 points
+- Discussion of key contributions of the system: 10 points
+- Context/background and related work: 5 points
+- Limitations, strengths, and weaknesses: 7 points
+- Discussion of how the authors evaluated the paper OR system demo: 8 points
+
