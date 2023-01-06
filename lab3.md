@@ -6,6 +6,8 @@ The equivalent event to a trap from an application to the operating system is ca
 
 Similar to issuing a system call (e.g., using the int or syscall instruction), a guest can issue a hypercall using the vmcall instruction. The current JOS guest uses three hypercalls: one to read the e820 map, which specifies the physical memory layout to the OS, and two to use host-level IPC. We will handle the first hypercall in this lab.
 
+You will do this lab with your Project 1 group. 
+
 **Due date: March 7, 2023**
 
 # Part 2: Pre-lab questions
