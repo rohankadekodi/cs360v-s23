@@ -30,6 +30,8 @@ March 23, 2023: Deadline to have a confirmed list of issues and responses from d
 
 # Grading rubric
 
+Course staff will assign each proposed issue a score based on its difficulty. Easy issues are worth 1 point, medium issues are worth 2, and hard issues are worth 3. A group of 2 students must take on a set of issues worth 3 points, a group of 3 students must reach 4 points, and a group of 4 students must reach 5 points. Each group must take at least one medium or hard issue, but otherwise can combine issues in any way they like. For example, a group of 2 could do one easy and one medium issue, or they could do one hard issue. 
+
 30% of your grade comes from Project 2. It is worth 60 total points.
 - 5 points for getting issues approved by course staff by the deadline.
 - 20 points for completing the proposed issues. You do not have to get your fixes merged into the repository, but you will need to provide your code and describe in your report how you resolved each issue.
