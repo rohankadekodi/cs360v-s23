@@ -22,15 +22,15 @@ Search for "help wanted" or "good first issue" tags on these repositories to fin
 
 We **strongly** recommend discussing issues with course staff and reaching out to developers much earlier than these deadlines. Maintainers may take a long time to respond and issues may end up being more challenging than initially expected. Course staff must approve all issues. A small part of your grade on Project 2 comes from hitting these deadlines. 
 
-February 23, 2023: Deadline to propose issues to course staff on Piazza.
-March 23, 2023: Deadline to have a confirmed list of issues and responses from developers. Submit the final list of issues and links to Github issues (if possible) on Canvas.
+Deadlines TBD
+<!-- February 23, 2023: Deadline to propose issues to course staff on Piazza.
+March 23, 2023: Deadline to have a confirmed list of issues and responses from developers. Submit the final list of issues and links to Github issues (if possible) on Canvas. -->
 
 # Grading rubric
 
 30% of your grade comes from Project 2. It is worth 60 total points.
-
-Rubric:
-- 5 points each for submitting your issue proposal and confirmation to course staff by the deadlines above (10 points total).
-- 50 points for the final report. More information on what the report should contain will be added soon.
+- 5 points for getting issues approved by course staff by the deadline.
+- 20 points for completing the proposed issues. You do not have to get your fixes merged into the repository, but you will need to provide your code and describe in your report how you resolved each issue.
+- 30 points for your project report. More details on the contents of the report will be added soon.
 
 If you get any issue merged into an open-source repository related to virtualization, you will receive extra credit! The issue can be related to Project 2, but it does not have to be. Submit a link to merged pull request the extra credit assignments on Canvas to receive credit.
