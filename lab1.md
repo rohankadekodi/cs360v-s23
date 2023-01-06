@@ -4,6 +4,8 @@
 
 In the previous lab, you worked with QEMU and KVM to become more familiar with virtualization. In this and the subsequent labs, you will implement part of a paravirtual hypervisor within the JOS operating system. The labs cover bootstrapping a guest OS, programming extended page tables, emulating privileged instructions, and using hypercalls to implement hard drive emulation. By the end of Project 1, you wil be able to launch a JOS-in-JOS environment.
 
+You will do this lab with your Project 1 group. 
+
 This README series contains some background related to Project 1. Reading this document will help you understand the pieces you will be implementing on a high level as you work on Project 1.
 
 The README series is broken down into 4 parts:
