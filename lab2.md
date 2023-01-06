@@ -6,7 +6,9 @@ In this lab assignment you will be completing the guest bootloader and kernel co
 
 Before beginning this lab assignment, read [bootloader.md](bootloader.md).
 
-This lab is generally considered to be the most difficult part of Project 1 -- please start early!
+You will do this lab with your Project 1 group. 
+
+**This lab is generally considered to be the most difficult part of Project 1 -- please start early!**
 
 **Due date: February 21, 2023**
 
