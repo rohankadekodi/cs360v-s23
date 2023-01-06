@@ -4,6 +4,8 @@
 
 In Lab 3, we implemented the memory map portion of `handle_vmcall()`. In this lab, you will handle the two more cases in this function, which deal with sending and receiving IPCs. These hypercalls are used by JOS to perform disk IO via a user-level file system environment. Before starting this lab, read JOS's [file system documentation](file_system.md).
 
+You will do this lab with your Project 1 group. 
+
 **Due date: March 23, 2023**
 
 # Part 2: Questions
