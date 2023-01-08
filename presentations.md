@@ -4,8 +4,9 @@ Your group will do a presentation on a paper or system for the class. Each group
 
 You will do your presentation in a group of 2-4 students. Your presentation group may be the same as your Project 1 and/or Project 2 groups, but it does not have to be. Please sign up for an existing Presentation group on the "People" tab on Canvas. 
 
-Please select a presentation by putting your canvas group number here: https://docs.google.com/spreadsheets/d/1g90WdplSlqcU3hIz881Xv-TScy_1qYE3wGABNxfGZ9Q/edit?usp=sharing
-Note: The presentations will be assigned to groups on first-come-first-serve basis, so please choose your presentations in the spreadsheet soon!
+Please select a presentation by putting your canvas group number in this spreadsheet: https://docs.google.com/spreadsheets/d/1g90WdplSlqcU3hIz881Xv-TScy_1qYE3wGABNxfGZ9Q/edit?usp=sharing
+
+**Note: The presentations will be assigned to groups on first-come-first-serve basis, so please form your presentation groups and choose your presentations in the spreadsheet soon! You will need to access the spreadsheet by signing in to your utexas account**
 
 ## Paper presentations
 Presentations on research papers should address the following questions:
