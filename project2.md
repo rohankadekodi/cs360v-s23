@@ -48,7 +48,7 @@ Students have contributed to these repositories in previous years. This is not a
 
 February 23, 2023: Soft deadline to post on selected issues. 
 
-March 23, 2023: Submit a ~1-2 page report listing the issues being tackled and progress so far.
+March 28, 2023: Submit a ~1-2 page report listing the issues being tackled and progress so far.
 
 April 27, 2023: Submit a ~5 page report detailing what you worked on and how you solved the issues. 
 
