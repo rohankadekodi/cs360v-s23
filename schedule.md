@@ -1,8 +1,8 @@
 | Date  | Topic | Links | Notes | Deadlines and Comments |
 |-----------|-------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|-----------------------------|----------------------------------------|
 | 01/10 Tue | Introduction  | | [Notes](notes/intro.md) | First day of class!  |
-| 01/12 Thu | Virtual Machines: the basics  | | [Notes](notes/vm-basics.md) | **Last day to add class without permission** |
-| 01/17 Tue | Virtualization in the Industry |  |  |  |
+| 01/12 Thu | Virtualization in the Industry |  |  | **Last day to add class without permission** |
+| 01/17 Tue | Virtual Machines: the basics  | | [Notes](notes/vm-basics.md) | |
 | 01/19 Thu | Virtualizing CPUs | [QEMU Internals Slides](https://www.csd.uoc.gr/~hy428/reading/qemu-internals-slides-may6-2014.pdf) | [Notes](notes/vm-cpu.md) |  |
 | 01/24 Tue | Virtualizing DRAM | | [Notes](notes/vm-mem.md) | **Lab-0 due** |
 | 01/25 Wed | No Class | | | **Last day to drop class without permission, or add class with approval** |
