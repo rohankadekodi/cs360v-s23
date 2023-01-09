@@ -23,7 +23,7 @@
 | 03/16 Thu | **No class - Spring Break** | | |  |
 | 03/21 Tue | Unikernels: Rise of the Virtual Library Operating System  | [ACM Queue article](https://www.seltzer.com/margo/teaching/CS508.19/papers/madhavapeddy13.pdf)  | | **Last day to withdraw or change class to pass/fail** |
 | 03/23 Thu | Unikernels: Library OS for the cloud  | [ASPLOS 13 paper](http://mort.io/publications/pdf/asplos13-unikernels.pdf)  | | **Lab-4 due** |
-| 03/28 Tue | Serverless computing: the basics + Firecracker  | [Firecracker (NSDI 20)](https://www.usenix.org/conference/nsdi20/presentation/agache) | [Notes](notes/serverless.md)  | | 
+| 03/28 Tue | Serverless computing: the basics + Firecracker  | [Firecracker (NSDI 20)](https://www.usenix.org/conference/nsdi20/presentation/agache) | [Notes](notes/serverless.md)  | **Project 2 progress report due** | 
 | 03/30 Thu |Occupy the Cloud: Distributed Computing for the 99%  + Serverless Computing: One Step Forward, Two Steps Back| [SOCC17](https://shivaram.org/publications/pywren-socc17.pdf), [CIDR19](http://cidrdb.org/cidr2019/papers/p119-hellerstein-cidr19.pdf) | [Notes](notes/serverless-arch.md), [Notes (Sama Ziki)](notes/arch-sama.md) |  |
 | 04/04 Tue | From Laptop to Lambda: Outsourcing Everyday Jobs to Thousands of Transient Functional Containers (no live class, see video on piazza) | [ATC19](https://cs.stanford.edu/~matei/papers/2019/usenix_atc_gg.pdf) | [Notes (Sama Ziki)](notes/gg.md) |  |
 | 04/06 Thu | SAND + A Berkeley View on Serverless Computing | [ATC18](https://www.usenix.org/conference/atc18/presentation/akkus), [Berkeley TR](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-3.pdf) |  |  |
