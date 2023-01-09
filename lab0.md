@@ -25,6 +25,15 @@ You may also use a personal computer for this lab. You will need a machine runni
 
 Note that for subsequent labs, we will use different servers that are set up for this course. You will receive instructions on how to access those servers when we begin Lab 1.
 
+# Part 1.5: Prepping for Lab 1
+You will work on subsequent labs on a separate set of servers set up for this course. You need to provide some information to course staff to gain access to these servers. **Please do this as early as possible - you will not be able to start Lab 1 until you provide this information.** 
+
+1. On your own computer, run `ssh-keygen -t ecdsa`. Follow the prompts to create public and private SSH keys. Be sure to password-protect your keys.
+2. Log into [stache.utexas.edu](stache.utexas.edu) using your UT EID. Stache is a website provided by UT to safely share private information like SSH keys. See https://sites.cns.utexas.edu/oit-blog/blog/what-stache-and-how-use-it-share-confidential-information for more information.
+3. Create a new entry and copy the public key you just created (it will have the suffix `.pub`) into the "Secret" field. 
+4. Share your key with course staff using the "Add a person" search bar on the right side of the window. 
+
+**Note: each student should create their own SSH key**. 
 
 # Part 1: Setting up a VM
 
@@ -105,8 +114,8 @@ Now we'll use `strace`, a tool to record system calls and signals used within a 
 # Grading rubric
 
 Total points: 20
-Questions 1, 2, 3, and 4 are worth 2 points each.
-Questions 5, 6, and 7 are worth 4 points each.
+Questions 1 through 4 are worth 2 points each.
+Questions 5 through 7 are worth 4 points each.
 
 # Submission details
 
