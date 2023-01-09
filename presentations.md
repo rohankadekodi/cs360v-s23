@@ -36,3 +36,5 @@ The presentation is worth 40 points. Grades are broken down as follows:
 - Limitations, strengths, and weaknesses: 7 points
 - Discussion of how the authors evaluated the paper OR system demo: 8 points
 
+**Please submit any slides, code, etc. used in your presentation to Canvas before your presentation**
+
