@@ -18,7 +18,7 @@ The README series is broken down into 4 parts:
 
 # Part 2: Setup
 
-Your group has been assigned a server (either toothukudi-lom or tenali-lom) and credentials to log into the course servers. Please do not share these credentials with anyone outside of your group. 
+Your group has been assigned a server (either toothukudi-lom or erode-lom) and credentials to log into the course servers. Please do not share these credentials with anyone outside of your group. 
 
 We recommend running all projects on the course servers since they are already set up properly to run the assignments, but if you have a personal computer with x86 hardware (*not* AMD or a newer Mac) you may be able to run the projects locally or within a different hypervisor like VirtualBox. See [the tools page](tools.md) for information on how to set up the labs from scratch. Course staff will only be able to provide limited support for alternative environments.
 
