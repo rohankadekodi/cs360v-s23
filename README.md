@@ -19,8 +19,6 @@ Welcome to CS 360V Virtualization! This is a course designed to expose undergrad
 
 Aside from teaching you the concepts behind virtualization, this course is meant to get you familiar with the commonly used tools and software. You should get used to using virtual machines, and containers. You will gain more experience with Git, and with real-world code bases.
 
-**Piazza Link: [piazza.com/utexas/spring2023/cs360v](https://piazza.com/utexas/spring2023/cs360v)** 
-
 **Canvas Link: [https://utexas.instructure.com/courses/1358824/assignments/syllabus](https://utexas.instructure.com/courses/1358824/assignments/syllabus)** 
 
 **Class Timing and Location: TuTh 11am - 12:30pm in PAR 203**
