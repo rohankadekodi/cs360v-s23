@@ -10,6 +10,8 @@ You will do this lab with your Project 1 group.
 
 **This lab is generally considered to be the most difficult part of Project 1 -- please start early!**
 
+If you did not receive full points on your code for the previous lab, please contact course staff via a private post on Piazza to get the solution code.
+
 **Due date: February 21, 2023**
 
 ### Mapping in the guest bootloader and kernel
