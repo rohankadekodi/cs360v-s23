@@ -8,6 +8,8 @@ Similar to issuing a system call (e.g., using the int or syscall instruction), a
 
 You will do this lab with your Project 1 group. 
 
+If you did not receive full points on your code for the previous lab, please contact course staff via a private post on Piazza to get the solution code.
+
 **Due date: March 7, 2023**
 
 # Part 2: Pre-lab questions
