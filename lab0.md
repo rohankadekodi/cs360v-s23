@@ -4,7 +4,7 @@
 
 The goal of this lab is to familiarize you QEMU and KVM (two popular pieces of virtualization software). For the rest of Project 1, you will build part of a paravirtual hypervisor, which will run in a QEMU/KVM virtual machine. You may also finding the tracing tools and VM setup instructions presented in this lab useful in Project 2. 
 
-You will complete this and the other Project 1 labs in a group of 2-4 students. Please sign up for an existing Project 1 group on the "People" tab on Canvas. You will complete all Project 1 labs with the same group. You will submit the assignment through GitHub classroom.
+You will complete this and the other Project 1 labs in a group of 2-4 students. Please sign up for an existing Project 1 group on the "People" tab on Canvas. You will complete all Project 1 labs with the same group. You will submit the assignment through GitHub classroom (see Canvas for the invite link).
 
 **Due date: January 24, 2023**
 
@@ -121,7 +121,7 @@ Questions 5 through 7 are worth 4 points each.
 
 **Due date: January 24, 2023**
 
-Assignments will be submitted using GitHub Classroom. You will receive an invite link for the assignment when it is released. You may make as many branches and commits as you would like while working on the lab. When you are ready to submit, make sure all changes have been pushed to the main branch of your group's repository in the classroom. GitHub Classroom will snapshot the repository at the due date, and course staff will leave feedback via a pull request.
+Assignments will be submitted using GitHub Classroom. See Canvas for the invite link. You may make as many branches and commits as you would like while working on the lab. When you are ready to submit, make sure all changes have been pushed to the main branch of your group's repository in the classroom. GitHub Classroom will snapshot the repository at the due date, and course staff will leave feedback via a pull request.
 
 Please indicate if you are using any slip days in the Markdown file with the answers to the lab questions.
 
