@@ -21,6 +21,8 @@ Aside from teaching you the concepts behind virtualization, this course is meant
 
 **Canvas Link: [https://utexas.instructure.com/courses/1358824/assignments/syllabus](https://utexas.instructure.com/courses/1358824/assignments/syllabus)** 
 
+**Piazza Link: [piazza.com/utexas/spring2023/cs360v](https://piazza.com/utexas/spring2023/cs360v)**
+
 **Class Timing and Location: TuTh 11am - 12:30pm in PAR 203**
 
 **[Schedule](https://github.com/rohankadekodi/cs360v-s23/blob/main/schedule.md)**
