@@ -35,7 +35,7 @@ You will work on subsequent labs on a separate set of servers set up for this co
 
 **Note: each student should create their own SSH key**. 
 
-# Part 3: Setting up a VM
+# Part 2: Setting up a VM
 
 The first part of this lab involves setting up a VM for use with QEMU, a popular hypervisor. Since virtual machines have their own operating system kernels, we need to install an operating system in our virtual machine before we can do anything interesting with it. 
 
@@ -88,7 +88,7 @@ Edit the file /etc/default/grub using your preferred text editor (it will requir
 qemu-system-x86_64 -hda lab0.img -m 8G -enable-kvm -nographic
 ```
 
-# Part 4: Questions
+# Part 3: Questions
 
 Please write up answers to these questions in a Markdown document and push it to your group's Github Classroom repository for Lab 0 prior to the deadline. There is no code deliverable for this assignment.
 
