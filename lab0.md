@@ -90,17 +90,17 @@ qemu-system-x86_64 -hda lab0.img -m 8G -enable-kvm -nographic
 
 Please write up answers to these questions in a Markdown document and push it to your group's Github Classroom repository for Lab 0 prior to the deadline. There is no code deliverable for this assignment.
 
-1. Run `lscpu` on both the host and the guest. Briefly describe some of the differences that you see. Is the guest aware that it is being virtualized? How do you know?
+1. Run `lscpu` on both the host and the guest with KVM enabled. Briefly describe some of the differences that you see. Is the guest aware that it is being virtualized? How do you know?
 2. Now boot the guest without KVM (remove `-enable-kvm` from the command) and run `lscpu` again. What has changed? Is the guest aware that it is being virtualized? How do you know?
 3. Within both KVM and non-KVM VMs, run `systemd-analyze` and record the total startup time. Which VM has a longer startup time? Why?
 
 For the next few questions, we'll use some tracing functionality built into QEMU. This tracing infrastructure was introduced to aid in debugging and performance profiling, but we'll use it to better understand how VMs work with QEMU and KVM. See the QEMU tracing documentation for more info: https://qemu-project.gitlab.io/qemu/devel/tracing.html
 
-4. For this question, we'll need to use the GUI. Remove `-nographic` from the QEMU command (you can add it back after this question). Add `--trace ps2_put_keycode,file=$HOME/qemu.out` to the QEMU command and start the VM. This will record each time a function `ps2_put_keycode` is called within QEMU and log it to the file `$HOME/qemu.out`. To view contents of this file as they are appended, run `tail -f $HOME/qemu.out` from a different terminal window.
+4. For this question, we'll need to use the GUI. Remove `-nographic` from the QEMU command (you can add it back after this question) and enable KVM. Add `--trace ps2_put_keycode,file=$HOME/qemu.out` to the QEMU command and start the VM. This will record each time a function `ps2_put_keycode` is called within QEMU and log it to the file `$HOME/qemu.out`. To view contents of this file as they are appended, run `tail -f $HOME/qemu.out` from a different terminal window.
 
     Wait for the VM to boot. Figure out what triggers the `ps2_put_keycode` event by interacting with the VM (there may be a slight delay between the triggering event and the logs appearing in the file). What triggers this event? Why does QEMU handle this event?
 
-5. Now, trace the `kvm_run_exit` event by adding `--trace kvm_run_exit,file=$HOME/qemu.out` to the QEMU command. This lets us see when and why the VM exits to KVM. What reasons do you see? Use https://github.com/qemu/qemu/blob/master/linux-headers/linux/kvm.h to interpret them.
+5. Now, trace the `kvm_run_exit` event by adding `--trace kvm_run_exit,file=$HOME/qemu.out` to the QEMU command. This lets us see when and why the VM exits to KVM. Make sure KVM is enabled. What reasons do you see? Use https://github.com/qemu/qemu/blob/master/linux-headers/linux/kvm.h to interpret them.
 
 6. Trace the `translate_block` event with and without KVM. How does the output change with KVM vs. without? Why do you think this is? (Hint: think about the name of the event, and read the first few sections of https://www.qemu.org/docs/master/devel/tcg.html and https://lwn.net/Articles/705160/)
 
@@ -109,7 +109,7 @@ Now we'll use `strace`, a tool to record system calls and signals used within a 
 
 7. Use `strace` to trace only `ioctl` calls made by the VM (read the `strace` man page [here](https://man7.org/linux/man-pages/man1/strace.1.html) for help). We suggest redirecting the output (note that `strace` prints to stderr, not stdout) to a separate file. `ioctl` is a system call that allows a userspace program (like QEMU) to communicate with a kernel module (like KVM) and to perform operations that are not expressed by regular system calls. See [the ioctl man page](https://man7.org/linux/man-pages/man2/ioctl.2.html) for more information.
 
-    Boot the VM - you should see lots of `ioctl` calls where the request type (the second argument) begins with `KVM_`. Pick out five different `KVM_` request types (check the top of the log file) and, using the [KVM API documentation](https://www.kernel.org/doc/Documentation/virtual/kvm/api.txt) as a reference, briefly describe what those requests do.
+    Boot the VM with KVM enabled - you should see lots of `ioctl` calls where the request type (the second argument) begins with `KVM_`. Pick out five different `KVM_` request types (check the top of the log file) and, using the [KVM API documentation](https://www.kernel.org/doc/Documentation/virtual/kvm/api.txt) as a reference, briefly describe what those requests do.
 
 # Grading rubric
 
