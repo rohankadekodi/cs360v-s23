@@ -48,6 +48,8 @@ Compression yes
 ```
 We recommend working in this lab from within GDC to reduce latency between the remote server running the VM and your personal computer. If you cannot physically access GDC or otherwise have latency issues, please contact course staff.
 
+**Note: this part of the assignment can be done with or without KVM.** KVM can be disabled by removing `-enable-kvm` from the commands. The VM will run more slowly, but the steps for this part of the lab will remain the same.
+
 1. Download the Ubuntu Desktop 22.04 ISO using
 ```
 wget https://releases.ubuntu.com/22.04.1/ubuntu-22.04.1-desktop-amd64.iso?_ga=2.1007156.421406901.1670951282-1358803642.1670951282
