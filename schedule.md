@@ -7,7 +7,7 @@
 | 01/24 Tue | Virtualizing DRAM | | | **Lab-0 due** |
 | 01/25 Wed | No Class | | | **Last day to drop class without permission, or add class with approval** |
 | 01/26 Thu | Virtualizing I/O |  | | |
-| 01/31 Tue | Para Virtualization | [Xen and the Art of Virtualization, SOSP 2003](https://cse.buffalo.edu/~stevko/courses/cse704/fall10/papers/2003-xensosp.pdf) | |  |
+| 01/31 Tue | Para Virtualization | [Xen and the Art of Virtualization, SOSP 2003](https://cse.buffalo.edu/~stevko/courses/cse704/fall10/papers/2003-xensosp.pdf) | | **Deadlone to choose presentation/demo slot** |
 | 02/02 Thu | Virtualizing storage + security in VMs  | | | **Lab-1 due** |
 | 02/07 Tue | Nested Virtualization | | |  |
 | 02/09 Thu | Student Presentations + Demos - 1 | (1) [Disco, SOSP 1997](https://klasses.cs.uchicago.edu/archive/2019/winter/33100-1/papers/disco-sosp97.pdf), (2) [Memory Resource Management in VMware ESX Server, OSDI 2002](https://dl.acm.org/doi/pdf/10.1145/844128.844146), (3) [ELI, ASPLOS 2012](https://techtc.cs.technion.ac.il/news/2014/691/docs/ELI.pdf), (4) [The origin of the VM/370 time-sharing system, IBM Journal of Research and Development, 1981](https://pages.cs.wisc.edu/~stjones/proj/vm_reading/ibmrd2505M.pdf) |
