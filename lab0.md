@@ -102,7 +102,9 @@ For the next few questions, we'll use some tracing functionality built into QEMU
 
     Wait for the VM to boot. Figure out what triggers the `ps2_put_keycode` event by interacting with the VM (there may be a slight delay between the triggering event and the logs appearing in the file). What triggers this event? Why does QEMU handle this event?
 
-5. Now, trace the `kvm_run_exit` event by adding `--trace kvm_run_exit,file=$HOME/qemu.out` to the QEMU command. This lets us see when and why the VM exits to KVM. Make sure KVM is enabled. What reasons do you see? Use https://github.com/qemu/qemu/blob/master/linux-headers/linux/kvm.h to interpret them.
+5. Now, trace the `kvm_run_exit` event by adding `--trace kvm_run_exit,file=$HOME/qemu.out` to the QEMU command. This event lets us see when and why KVM returns control to QEMU.
+<!-- This lets us see when and why the VM exits to KVM.  -->
+Make sure KVM is enabled. What reasons do you see? Use https://github.com/qemu/qemu/blob/master/linux-headers/linux/kvm.h to interpret them.
 
 6. Trace the `translate_block` event with and without KVM. How does the output change with KVM vs. without? Why do you think this is? (Hint: think about the name of the event, and read the first few sections of https://www.qemu.org/docs/master/devel/tcg.html and https://lwn.net/Articles/705160/)
 
