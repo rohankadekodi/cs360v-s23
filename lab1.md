@@ -22,10 +22,10 @@ Please see Canvas for information on how to access course servers.
 
 We recommend running all projects on the course servers since they are already set up properly to run the assignments, but if you have a personal computer with x86 hardware (*not* AMD or a newer Mac) you may be able to run the projects locally or within a different hypervisor like VirtualBox. See [the tools page](tools.md) for information on how to set up the labs from scratch. Course staff will only be able to provide limited support for alternative environments.
 
-The servers are only accessible via a gateway server, `pig.csres.utexas.edu`. In order to access your group's assigned server for the course, you need to first SSH into the gateway server, then to the assigned course server. You can add entries as follows to your SSH config file (`~/.ssh/config` for Linux and MacOS) to simplify this process:
+The servers are only accessible via a gateway server, `pig.csres.utexas.edu`. We have set up a user on this server that all students in this class will use. In order to access your group's assigned server for the course, you need to first SSH into the gateway server, then to the assigned course server. You can add entries as follows to your SSH config file (`~/.ssh/config` for Linux and MacOS) to simplify this process:
 ```
 Host pig
-   User <group username>
+   User cs360v-s23
    HostName pig.csres.utexas.edu
    IdentityFile <path to private key file>
 
