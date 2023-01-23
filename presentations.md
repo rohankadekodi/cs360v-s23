@@ -2,7 +2,7 @@
 
 Your group will do a presentation on a paper or system for the class. Each group will present once. Presentations should last approximately 15 minutes. Each student in the group must present for an equal amount of time. You may present in whatever manner you feel works best for your topic (slides, whiteboard talk, demo, etc.)
 
-You will do your presentation in a group of 2-4 students. Your presentation group may be the same as your Project 1 and/or Project 2 groups, but it does not have to be. Please sign up for an existing Presentation group on the "People" tab on Canvas. 
+You will do your presentation in a group of 1-4 students. Your presentation group may be the same as your Project 1 and/or Project 2 groups, but it does not have to be. Please sign up for an existing Presentation group on the "People" tab on Canvas. 
 
 Please select a presentation by putting your canvas group number in this spreadsheet: https://docs.google.com/spreadsheets/d/1g90WdplSlqcU3hIz881Xv-TScy_1qYE3wGABNxfGZ9Q/edit?usp=sharing
 
