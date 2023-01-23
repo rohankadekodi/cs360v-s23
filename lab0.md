@@ -4,7 +4,7 @@
 
 The goal of this lab is to familiarize you QEMU and KVM (two popular pieces of virtualization software). For the rest of Project 1, you will build part of a paravirtual hypervisor, which will run in a QEMU/KVM virtual machine. You may also finding the tracing tools and VM setup instructions presented in this lab useful in Project 2. 
 
-You will complete this and the other Project 1 labs in a group of 2-4 students. Please sign up for an existing Project 1 group on the "People" tab on Canvas. You will complete all Project 1 labs with the same group. You will submit the assignment through GitHub classroom (see Canvas for the invite link).
+You will complete this and the other Project 1 labs in a group of 1-4 students. Please sign up for an existing Project 1 group on the "People" tab on Canvas. You will complete all Project 1 labs with the same group. You will submit the assignment through GitHub classroom (see Canvas for the invite link).
 
 **Due date: January 24, 2023**
 
