@@ -1,10 +1,10 @@
 | Date  | Topic | Links | Notes | Deadlines and Comments |
 |-----------|-------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|-----------------------------|----------------------------------------|
-| 01/10 Tue | Introduction  | | | First day of class!  |
-| 01/12 Thu | Virtualization in the Industry |  |  | **Last day to add class without permission** |
-| 01/17 Tue | Virtual Machines: the basics  | | | |
-| 01/19 Thu | Virtualizing CPUs | [QEMU Internals Slides](https://www.csd.uoc.gr/~hy428/reading/qemu-internals-slides-may6-2014.pdf) |  |  |
-| 01/24 Tue | Virtualizing DRAM | | | **Lab-0 due** |
+| 01/10 Tue | Introduction  | | [Notes](https://github.com/rohankadekodi/cs360v-s23/blob/main/notes/Intro.pdf) | First day of class!  |
+| 01/12 Thu | Virtualization in the Industry | | [Notes](https://github.com/rohankadekodi/cs360v-s23/blob/main/notes/Virtualization%20in%20the%20industry.pdf) | **Last day to add class without permission** |
+| 01/17 Tue | Virtual Machines: the basics  | | [Notes-1](https://github.com/rohankadekodi/cs360v-s23/blob/main/notes/Types%20of%20virtualization%20.pdf), [Notes-2](https://github.com/rohankadekodi/cs360v-s23/blob/main/notes/Types%20of%20virtualization%20-%202.pdf) | |
+| 01/19 Thu | Virtualizing CPUs | [QEMU Internals Slides](https://www.csd.uoc.gr/~hy428/reading/qemu-internals-slides-may6-2014.pdf) | [Notes](https://github.com/rohankadekodi/cs360v-s23/blob/main/notes/CPU%20Virtualization%20.pdf) |  |
+| 01/24 Tue | Virtualizing DRAM | | [Notes](https://github.com/rohankadekodi/cs360v-s23/blob/main/notes/Memory%20Virtualization%20.pdf) | **Lab-0 due** |
 | 01/25 Wed | No Class | | | **Last day to drop class without permission, or add class with approval** |
 | 01/26 Thu | Virtualizing I/O |  | | |
 | 01/31 Tue | Para Virtualization | [Xen and the Art of Virtualization, SOSP 2003](https://cse.buffalo.edu/~stevko/courses/cse704/fall10/papers/2003-xensosp.pdf) | | **Deadline to choose presentation/demo slot** |
