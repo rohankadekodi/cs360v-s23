@@ -102,7 +102,7 @@ Please write up the answers to these questions in a Markdown document.
    
    a. `cpuid()` is implemented in inc/x86.h using the `asm` keyword. What does this keyword mean? What does `volatile` mean here? How are the arguments to the `cpuid()` function used? (Hint: look up GCC's documentation on Extended Asm.)
 
-   b. Set a breakpoint at the `cpuid()` call in `vmx_check_support()` in vmm/vmx.c and step past the `asm volatile` call. What are the values of the `eax, ebx, ecx, edx` variables in hexadecimal at this point? Hint: [you can print program variables in GDB](https://sourceware.org/gdb/current/onlinedocs/gdb/Variables.html).
+   b. Set a breakpoint at the `cpuid()` call in `vmx_check_support()` in vmm/vmx.c and step past the `asm volatile` call. Make sure the first argument to this `cpuid()` call is 0 before stepping into it. What are the values of the `eax, ebx, ecx, edx` variables in hexadecimal at this point? Hint: [you can print program variables in GDB](https://sourceware.org/gdb/current/onlinedocs/gdb/Variables.html).
 
    c. Convert the contents of ebx, ecx, and edx from part (b) to strings using an ASCII table or converter. Using [the CPUID wikipedia page](https://en.wikipedia.org/wiki/CPUID#EAX=1:_Processor_Info_and_Feature_Bits) as a reference, explain what these values tell us about our CPU.
 
