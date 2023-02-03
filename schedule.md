@@ -7,10 +7,10 @@
 | 01/24 Tue | Virtualizing CPUs | [QEMU Internals Slides](https://www.csd.uoc.gr/~hy428/reading/qemu-internals-slides-may6-2014.pdf) | [Notes](https://github.com/rohankadekodi/cs360v-s23/blob/main/notes/CPU%20Virtualization%20.pdf) | **Lab-0 due** |
 | 01/25 Wed | No Class | | | **Last day to drop class without permission, or add class with approval** |
 | 01/26 Thu | Virtualizing DRAM | | [Notes](https://github.com/rohankadekodi/cs360v-s23/blob/main/notes/Memory%20Virtualization%20.pdf) |  |
-| 01/31 Tue |  No class (winter storm)  | | | |
+| 01/31 Tue |  No class (winter storm)  | | | **Deadline to choose presentation/demo slot** |
 | 02/02 Thu |  No class (winter storm)  | | | **Lab-1 due** |
 | 02/07 The | Virtualizing I/O + Virtualizing storage | | |  |
-| 02/09 Thu | Para Virtualization | [Xen and the Art of Virtualization, SOSP 2003](https://cse.buffalo.edu/~stevko/courses/cse704/fall10/papers/2003-xensosp.pdf) | | **Deadline to choose presentation/demo slot** |
+| 02/09 Thu | Para Virtualization | [Xen and the Art of Virtualization, SOSP 2003](https://cse.buffalo.edu/~stevko/courses/cse704/fall10/papers/2003-xensosp.pdf) | | |
 | 02/14 Tue | Nested Virtualization | | |  |
 | 02/16 Thu | Student Presentations + Demos - 1 | (1) [Disco, SOSP 1997](https://klasses.cs.uchicago.edu/archive/2019/winter/33100-1/papers/disco-sosp97.pdf), (2) [Memory Resource Management in VMware ESX Server, OSDI 2002](https://dl.acm.org/doi/pdf/10.1145/844128.844146), (3) [ELI, ASPLOS 2012](https://techtc.cs.technion.ac.il/news/2014/691/docs/ELI.pdf), (4) [The origin of the VM/370 time-sharing system, IBM Journal of Research and Development, 1981](https://pages.cs.wisc.edu/~stjones/proj/vm_reading/ibmrd2505M.pdf) |
 | 02/21 Tue | Student Presentations + Demos - 2 | (1) [Mitigating Vulnerability Windows with Hypervisor Transplant, Eurosys 2021](https://dl.acm.org/doi/pdf/10.1145/3447786.3456235), (2) [The Design and Evolution of Live Storage Migration in VMware ESX, ATC 2011](https://www.usenix.org/legacy/events/atc11/tech/final_files/Mashtizadeh.pdf), (3) Demo on QEMU debugging, (4) Demo on VM migration | | **Lab-2 due**  |
