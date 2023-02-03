@@ -9,7 +9,7 @@
 | 01/26 Thu | Virtualizing DRAM | | [Notes](https://github.com/rohankadekodi/cs360v-s23/blob/main/notes/Memory%20Virtualization%20.pdf) |  |
 | 01/31 Tue |  No class (winter storm)  | | | **Deadline to choose presentation/demo slot** |
 | 02/02 Thu |  No class (winter storm)  | | | **Lab-1 due** |
-| 02/07 The | Virtualizing I/O + Virtualizing storage | | |  |
+| 02/07 Tue | Virtualizing I/O + Virtualizing storage | | |  |
 | 02/09 Thu | Para Virtualization | [Xen and the Art of Virtualization, SOSP 2003](https://cse.buffalo.edu/~stevko/courses/cse704/fall10/papers/2003-xensosp.pdf) | | |
 | 02/14 Tue | Nested Virtualization | | |  |
 | 02/16 Thu | Student Presentations + Demos - 1 | (1) [Disco, SOSP 1997](https://klasses.cs.uchicago.edu/archive/2019/winter/33100-1/papers/disco-sosp97.pdf), (2) [Memory Resource Management in VMware ESX Server, OSDI 2002](https://dl.acm.org/doi/pdf/10.1145/844128.844146), (3) [ELI, ASPLOS 2012](https://techtc.cs.technion.ac.il/news/2014/691/docs/ELI.pdf), (4) [The origin of the VM/370 time-sharing system, IBM Journal of Research and Development, 1981](https://pages.cs.wisc.edu/~stjones/proj/vm_reading/ibmrd2505M.pdf) |
@@ -18,7 +18,7 @@
 | 02/28 Tue | The technologies behind containers + Container orchestration frameworks | | | |
 | 03/02 Thu |  My VM is Lighter (and Safer) than your Container  | [SOSP 17 paper](http://cnp.neclab.eu/projects/lightvm/lightvm.pdf), [Slides](https://www.sigops.org/s/conferences/sosp/2017/slides/lightvm-sosp17-slides.pptx)  | | |
 | 03/07 Tue | Cntr: Lightweight OS Containers + Slacker | [ATC 18 paper](https://www.usenix.org/conference/atc18/presentation/thalheim), [FAST 16 Slacker](https://www.usenix.org/conference/fast16/technical-sessions/presentation/harter) | | **Lab-3 due** |
-| 03/09 Tue | SCONE: Secure Linux Containers with Intel SGX | [OSDI 16 paper](https://www.usenix.org/system/files/conference/osdi16/osdi16-arnautov.pdf), [Slides](https://www.usenix.org/conference/osdi16/technical-sessions/presentation/arnautov)  | |  |
+| 03/09 Thu | SCONE: Secure Linux Containers with Intel SGX | [OSDI 16 paper](https://www.usenix.org/system/files/conference/osdi16/osdi16-arnautov.pdf), [Slides](https://www.usenix.org/conference/osdi16/technical-sessions/presentation/arnautov)  | |  |
 | 03/14 Tue | **No class - Spring Break** | | |  |
 | 03/16 Thu | **No class - Spring Break** | | |  |
 | 03/21 Tue | Student Presentations + Demos - 3 | (1) [Turtles Project, OSDI 10](https://www.usenix.org/event/osdi10/tech/full_papers/Ben-Yehuda.pdf), (2) [Protean, OSDI 2020](https://www.usenix.org/system/files/osdi20-hadary.pdf), (3) [TwinVisor, SOSP 2021](https://ipads.se.sjtu.edu.cn/_media/publications/twinvisor-sosp21.pdf), (4) Demo on Nested Virtualization using Hyper-V (or any other software) | | **Last day to withdraw or change class to pass/fail** |
