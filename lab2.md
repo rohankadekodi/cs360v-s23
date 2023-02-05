@@ -14,6 +14,8 @@ If you did not receive full points on your code for the previous lab, please con
 
 **Due date: February 21, 2023**
 
+Please see Canvas for the GitHub Classroom link for Lab 2. **Please do not put your Lab 2 code in your Lab 1 repo. You must populate the new repository with your existing code** (or code from the solution) in order to get credit for Lab 2.
+
 ### Mapping in the guest bootloader and kernel
 
 In user/vmm.c we have provided the structure of the code to set up the guest and bootloader.
@@ -142,7 +144,7 @@ Part B is worth 6 points (2 per assembly code section).
 
 **Due date: February 21, 2023**
 
-Assignments will be submitted using GitHub Classroom. You will receive an invite link for the assignment when it is released. You may make as many branches and commits as you would like while working on the lab. When you are ready to submit, make sure all changes have been pushed to the main branch of your group's repository in the classroom. GitHub Classroom will snapshot the repository at the due date, and course staff will leave feedback and grade via a pull request.
+Assignments will be submitted using GitHub Classroom. You **must** use the new Lab 2 GitHub Classroom link to submit Lab 2. This repo will initially be empty and you will copy your existing codebase into it. You may make as many branches and commits as you would like while working on the lab. When you are ready to submit, make sure all changes have been pushed to the main branch of your group's repository in the classroom. GitHub Classroom will snapshot the repository at the due date, and course staff will leave feedback and grade via a pull request.
 
 Within your repository, please create a Markdown file for the pre-lab answers and ensure that all files required to run the assignment are present. Please indicate if you are using any slip days in the Markdown file.
 
