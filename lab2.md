@@ -19,7 +19,7 @@ Please see Canvas for the GitHub Classroom link for Lab 2. **Please do not put y
 ### Mapping in the guest bootloader and kernel
 
 In user/vmm.c we have provided the structure of the code to set up the guest and bootloader.
-In this lab assignment, you will be implementing the functions `copy_guest_kern_gpa`, which copies the guest kernel code into the guest physical address (gpa).
+In this lab assignment, you will be implementing the functions `copy_guest_kern_gpa`, which copies the guest kernel code into the guest physical address (gpa) space.
 You will also implement the function `map_in_guest` that copies the bootloader into the guest.
 
 Like any other user application in JOS, the VMM has the ability to open files, read pages, and map pages into other environments via IPC.
@@ -59,7 +59,7 @@ You will implement the following functions in this exercise:
 - `copy_guest_kern_gpa()`
 - `map_in_guest()`.
 
-First, implement `sys_ept_map()` in kern/syscall.c, as well as `ept_lookup_gpa()` and `ept_map_hva2gpa()` in vmm/ept.c. Once these are complete, you have enough host-level support function to map the guest bootloader and kernel into the guest VM.
+First, implement `sys_ept_map()` in kern/syscall.c. You will need to implement `ept_lookup_gpa()` and `ept_map_hva2gpa()` in vmm/ept.c to complete `sys_ept_map()`. Once these are complete, you have enough host-level support function to map the guest bootloader and kernel into the guest VM.
 
 Next, to map the guest bootloader and kernel, you will need to read the kernel's ELF headers and copy the segments into the guest. Implement `copy_guest_kern_gpa()` and `map_in_guest()` in user/vmm.c.
 
