@@ -70,7 +70,7 @@ On a high level, in this section, each page of the kernel as well as the bootloa
 Here is a graphic of the workflow, with descriptions below: 
 ![Image of Workflow](figures/workflow.jpg)
 
-For the bootloader, we use `map_in_guest()` directly`, since the bootloader is only 512 bytes,
+For the bootloader, we use `map_in_guest()` directly, since the bootloader is only 512 bytes,
 whereas the kernel's ELF header must be read by `copy_guest_kern_gpa()`, which should then call `map_in_guest()` for each segment.
 
 The workflow (and hints) for this part is as follows:
