@@ -134,6 +134,7 @@ Error copying page into the guest - 4294967289
 # Grading Rubric
 
 Total points: 20
+
 Each prelab question is worth 2 points (6 total).
 Tracking the number of runs is worth 6 points.
 `vmx_check_support()` and `vmx_check_ept()` are each worth 4 points.
