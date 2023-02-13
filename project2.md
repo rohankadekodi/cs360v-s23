@@ -58,7 +58,7 @@ There is no hard deadline for posting on issues or reaching out to developers. W
 
 30% of your grade comes from Project 2. It is worth 60 total points.
 
-- 10 points for your short report due February 23.
+- 10 points for your short report due March 28.
 - 50 points for the 5-page report. 
   - 20 of these points come from completing the proposed issues. You do not need to get your fixes merged for them to be considered completed.
   - 30 points come from your description of the issues and how you solved them. More details on the contents of the report will be provided soon.
