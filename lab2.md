@@ -77,7 +77,7 @@ The workflow (and hints) for this part is as follows:
 1. `copy_guest_kern_gpa()` reads the ELF header from the kernel executable into the struct Elf. 
 The kernel ELF contains multiple segments which must be copied from the host to the guest. This function is similar to the one observed in the prelab but has to call something other than `memcpy()` to map the memory because we are in the virtual guest. 
 
-2. `map_in_guest()` breaks down each segment in number of pages, and calls `sys_ept_map()` for each page. You cannot pass in the page directly, but rather will have to use a TEMP variable. This is defined as a macro in `memlayout.h`
+2. `map_in_guest()` breaks down each segment in number of pages, and calls `sys_ept_map()` for each page. You cannot pass in the page directly, but rather will have to use the UTEMP variable. This is defined as a macro in `memlayout.h`
 
 3. `sys_ept_map()` first walks the page table levels at the host (given the srcva), and then gets
 the physical page corresponding to the virtual address srcva (i.e. it returns the struct PageInfo).
