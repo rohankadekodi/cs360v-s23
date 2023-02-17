@@ -124,7 +124,28 @@ Because the host isn't handling traps from the guest yet, the VM will be termina
 Unhandled VMEXIT, aborting guest.
 ```
 
-## FAQ
+## Hints
+
+### Useful functions and macros
+
+This is a non-exhaustive list of macros and functions that you may find useful while working on this lab.
+- `envid2env` (kern/env.c): converts an env ID to an env pointer
+- `sys_page_alloc` (kern/syscall.c): allocates a page and maps it at a provided virtual address
+- `epte_present` (vmm/ept.c): checks whether an EPT entry's mapping is present 
+- `epte_addr` (vmm/ept.c): returns the physical address of an EPT entry
+- `epte_page_vaddr` (vmm/ept.c): returns the host kernel virtual address of an EPT entry
+- `ADDR_TO_IDX` (vmm/ept.h): returns the index corresponding to a physical address in the nth level of the page table
+- `page_alloc` (kern/pmap.c): allocates a physical page
+- `page2pa` (kern/pmap.h): converts a pointer to a`PageInfo` struct to the physical address of that page
+- `PADDR` (kern/pmap.h): converts a kernel virtual address to a physical address
+
+We also suggest looking at the following (non-exhaustive) list of files for other helper functions and macros:
+- inc/types.h
+- inc/mmu.h
+- kern/pmap.h
+- vmm/ept.c
+
+### FAQ
 
 1. Is srcva a kernel virtual address? - No. The srcva that is passed into `sys_ept_map()` is not a kernel virtual address. If you want to get the kernel virtual address associated with a srcva, you can look up the PageInfo struct associated with srcva, then look up the kernel virtual address for that PageInfo struct.
 2. How can I check if srcva is read-only? - Permissions are set on page table (or extended page table) entries by bitwise AND-ing the entry with some permission bits. There are constants defined in inc/mmu.h and inc/ept.h that correspond to different permissions settings for page table and extended page table entries respectively. You can look up the page table entry for srcva and check its permissions using bitwise operations on the permissions constants and the page table entry. This is also how to work with permissions on extended page table entries
@@ -132,6 +153,8 @@ Unhandled VMEXIT, aborting guest.
 4. What are the possible values of `perm`? - The possible values of perm (for `sys_ept_map()`; other permissions may be set for other situations in the codebase) are defined in inc/ept.h.
 5. How are `EPTE_ADDR` and `EPTE_FLAGS` used? - `EPTE_ADDR` and `EPTE_FLAGS` are used in the first few functions defined in vmm/ept.c, which are used to convert EPT entries to their corresponding physical or virtual addresses or to get the flags of an EPT entry. The `epte_addr()` and `epte_page_vaddr()` functions will be useful for this lab; you shouldn't have to deal with EPT entry flags here.
 6. What does `ADDR_TO_IDX(pa, n)` do and what is the `n` parameter? - `ADDR_TO_IDX(pa, n)` returns the index corresponding to physical address pa in the nth level of the page table. You can get an idea of how it can be used by looking in the `test_ept_map()` function at the bottom of vmm/ept.c. We suggest using this macro over adapting existing page table walk logic; it will require a lot less code (and thus there is a lower likelihood of mistakes).
+
+
 
 # Grading rubric
 
