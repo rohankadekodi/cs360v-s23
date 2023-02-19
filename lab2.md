@@ -109,13 +109,14 @@ Please check prior to starting this section that your code from Lab 0 that imple
 
 Skim Chapter 26 of the [Intel manual](http://www.cs.utexas.edu/~vijay/cs378-f17/projects/64-ia-32-architectures-software-developer-vol-3c-part-3-manual.pdf)
 to familiarize yourself with the `vmlaunch` and `vmresume` instructions. 
-Remove the panic in the call to `asm_vmrun()`. 
 
 There are several places in the `asm` statement that need to be modified to complete this exercise. All are labeled in the codebase with "Your code here" and are numbered to match the instructions below. Do not modify any of the provided assembly code. 
 
 1. Add an instruction to set the VMCS `rsp` to the current top of the frame. The instruction to use can be found in the Intel manual linked above. 
 2. Add an instruction to check if `vmlaunch` (`env_runs == 1`) or `vmresume` (`env_runs > 1`) is needed, set the condition code appropriately for use below.
 3. Write a set of instructions to check the result of the condition flag you set in step 2, and execute either the `vmlaunch` or the `vmresume`. This will require making use of conditional jumps. 
+
+Remove the panic at the end of `asm_vmrun()` and the panic at the end of `vmx_vmrun()`.
 
 Once this is complete, you should be able to run the VM until the guest attempts a `vmcall` instruction, which traps to the host kernel.
 Because the host isn't handling traps from the guest yet, the VM will be terminated. You should see an error like:
