@@ -14,8 +14,8 @@
 | 02/14 Tue | Nested Virtualization | | |  |
 | 02/16 Thu | Student Presentations + Demos - 1 | (1) [Disco, SOSP 1997](https://klasses.cs.uchicago.edu/archive/2019/winter/33100-1/papers/disco-sosp97.pdf), (2) [Memory Resource Management in VMware ESX Server, OSDI 2002](https://dl.acm.org/doi/pdf/10.1145/844128.844146), (3) [ELI, ASPLOS 2012](https://techtc.cs.technion.ac.il/news/2014/691/docs/ELI.pdf), (4) [The origin of the VM/370 time-sharing system, IBM Journal of Research and Development, 1981](https://pages.cs.wisc.edu/~stjones/proj/vm_reading/ibmrd2505M.pdf) |
 | 02/21 Tue | Student Presentations + Demos - 2 | (1) [Mitigating Vulnerability Windows with Hypervisor Transplant, Eurosys 2021](https://dl.acm.org/doi/pdf/10.1145/3447786.3456235), (2) [The Design and Evolution of Live Storage Migration in VMware ESX, ATC 2011](https://www.usenix.org/legacy/events/atc11/tech/final_files/Mashtizadeh.pdf), (3) Demo on QEMU debugging, (4) Demo on VM migration | | **Lab-2 due**  |
-| 02/23 Thu | Containers: the basics  | | | |
-| 02/28 Tue | The technologies behind containers + Container orchestration frameworks | | | |
+| 02/23 Thu | Containers: the basics  | | [Notes](notes/containers_basics.md) | |
+| 02/28 Tue | The technologies behind containers + Container orchestration frameworks | | [Notes](notes/container_technologies.md) | |
 | 03/02 Thu |  My VM is Lighter (and Safer) than your Container  | [SOSP 17 paper](http://cnp.neclab.eu/projects/lightvm/lightvm.pdf), [Slides](https://www.sigops.org/s/conferences/sosp/2017/slides/lightvm-sosp17-slides.pptx)  | | |
 | 03/07 Tue | Cntr: Lightweight OS Containers + Slacker | [ATC 18 paper](https://www.usenix.org/conference/atc18/presentation/thalheim), [FAST 16 Slacker](https://www.usenix.org/conference/fast16/technical-sessions/presentation/harter) | | **Lab-3 due** |
 | 03/09 Thu | SCONE: Secure Linux Containers with Intel SGX | [OSDI 16 paper](https://www.usenix.org/system/files/conference/osdi16/osdi16-arnautov.pdf), [Slides](https://www.usenix.org/conference/osdi16/technical-sessions/presentation/arnautov)  | |  |
