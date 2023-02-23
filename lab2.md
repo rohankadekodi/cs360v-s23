@@ -135,7 +135,7 @@ This is a non-exhaustive list of macros and functions that you may find useful w
 - `epte_present` (vmm/ept.c): checks whether an EPT entry's mapping is present 
 - `epte_addr` (vmm/ept.c): returns the physical address of an EPT entry
 - `epte_page_vaddr` (vmm/ept.c): returns the host kernel virtual address of an EPT entry
-- `ADDR_TO_IDX` (vmm/ept.h): returns the index corresponding to a physical address in the nth level of the page table
+- `ADDR_TO_IDX` (vmm/ept.h): returns the index corresponding to a physical address in the nth level of the extended page table
 - `page_alloc` (kern/pmap.c): allocates a physical page
 - `page2pa` (kern/pmap.h): converts a pointer to a`PageInfo` struct to the physical address of that page
 - `PADDR` (kern/pmap.h): converts a kernel virtual address to a physical address
