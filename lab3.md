@@ -69,7 +69,8 @@ Implement `handle_cpuid()` in vmm/vmexits.c. `handle_cpuid()` should emulate a c
 
 1. What tests should pass after Lab 3? - The VMX extension should pass, in addition to the sys_ept_tests and the start vmxon tests from Lab 2. 
 2. What is the difference between `base_addr_low` and `base_addr_high`/`length_low` and `length_high` in `memory_map_t`? - `base_addr_low` should contain the lower (least significant) 32 bits of the section base address and `base_addr_high` should contain the upper 32 bits; same with section length. If the value to store can be represented with fewer than 32 bits, the `*_high` field should be zeroed out. 
-3. The autograding script is timing out - Increase the `timeout` argument on 389 of gradelib.py. 60 seconds should be sufficient on the course servers.
+3. What's the difference between the `size` and `length_low`/`length_high` fields in `memory_map_t`? `size` should be set to the size of the `memory_map_t` type. The length fields describe the actual size of the segment.
+4. The autograding script is timing out - Increase the `timeout` argument on 389 of gradelib.py. 60 seconds should be sufficient on the course servers.
 
 # Grading rubric
 
