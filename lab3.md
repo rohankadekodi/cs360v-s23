@@ -46,7 +46,7 @@ JOS is "told" the amount of physical memory it has by the bootloader. JOS's boot
 For the JOS guest, rather than emulate a BIOS, we will simply use a vmcall to request a "fake" memory map. 
 
 
-Implement the `VMX_VMCALL_MBMAP` case of the function `handle_vmcall()` in `vmm/vmexits.c.` Also, be sure to advance the instruction pointer so that the guest doesn't get in an infinite loop.
+Implement the `VMX_VMCALL_MBMAP` case of the function `handle_vmcall()` in `vmm/vmexits.c.` Also, be sure to advance the instruction pointer at the end of `handle_vmcall()` so that the guest doesn't get in an infinite loop.
 
 ![Image of Map](figures/memmap.jpg)
 
