@@ -91,6 +91,7 @@ February 28
 - Namespace system calls
   - `clone()`
     - Creates a new process and a new namespace
+    - Like `fork()`, but provides much more control over how child is configured and what it shares with its parent
   - `unshare()`
     - Creates a new namespace (without a new process)
   - `setns()`
