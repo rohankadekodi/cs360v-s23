@@ -6,7 +6,7 @@ February 28
 - Lab 3 due March 7
   - Ask for Lab 2 solution if you are unsure about your Lab 1 code
 - Send us Project 2 issues via private note on Piazza
-
+- Read LightVM for next class
 
 ## Lecture notes
 
