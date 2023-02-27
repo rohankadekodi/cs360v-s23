@@ -116,6 +116,7 @@ February 28
   - Network rules (e.g. limiting throughput that can be used by a container)
 - 11 different control groups 
 - Resource quotas are enforced by the kernel
+- Managed via sysfs (similar to /proc, mounted at /sys) - newer, more structured registry of kernel information and configuration knobs; operations that user can perform on sysfs files are more restricted
 - If a process attempts to go beyond its limit (e.g. process tries to allocate 2GB of memory but is only allowed 1GB), the kernel will enforce it/kill the process (e.g OOM killer)
 ```
  |----------------|  |----------------|
@@ -182,21 +183,43 @@ February 28
 - Larger codebase ==> harder to maintain
   - Different teams may be working on different parts of the same unit of software
   - Teams must be careful to not break things done by other teams
+- Web shop example
+```
+      Web shop application
+  |-------------------------------|
+  |  item  | shopping |  ordering |
+  | search |   cart   |           |
+  |-------------------------------|
+    team A   team B      team C
+```
 - Amazon Web Services model
   - Each team builds a stand-alone service with an API accessible by other teams
   - Teams can function independently
 ```
-    Team 1                  Team 2
- |----------|---|    |---|----------|
- |   foo    |API|    |API|   bar    |
- |----------|---|    |---|----------|
+    Team A 
+ |----------|---|
+ |  search  |API|
+ |----------|---|
+
+     Team B 
+ |----------|---|
+ |   cart   |API|
+ |----------|---|
+
+     Team C 
+ |----------|---|
+ |   order  |API|
+ |----------|---|
 ```
-- Team 1 handles running service `foo`, team 2 handles running service `bar`
-- E.g., `foo` can access `bar` via `bar`'s API
-- Each service `foo` and `bar` will be run in a container!
-  - When, e.g., `bar` needs to be updated, the old container will be killed and a new one with the updated service will be brought up with the same configuration
+- Each team handles their own service and its public API
+  - Services may also be dependent on one another (e.g., a caching layer that runs near the search for popular items)
+- Each service will be run in a container!
+  - If team A needs to update the search service, they can kill the old containers it is running in and bring up new ones with minimal to no impact on other teams
+  - Services access databases of objects, cart contents, orders, etc.
   - These are **microservices**
   - Containers are convenient for microservices - lightweight, spin up and down quickly, can be moved around as necessary, development and deployment environment is the same
+  - Each service can be provisioned resources according to its needs; can run multiple containers for more frequently-accessed services
+    - E.g. search service might need more memory/CPU than order service
 
 ### Container orchestration
 - Problem: we have lots of microservices that need to run together. How do we manage all of thse containers?
@@ -211,7 +234,7 @@ February 28
         |------------|
 
   |------------|                    |------------||------------|
-  |  Database  |                    | Web server ||   Cache    |
+  |   search   |                    |    cart    ||   order    |
   |------------|                    |------------||------------|
   |--------------------------|      |--------------------------|
   | Container management sys |      | Container management sys |
@@ -240,3 +263,4 @@ February 28
 - All containers in a pod are deployed on the same host and share the same namespace
   - Microservices that frequently communicate are more efficient if they are co-located and can use IPC to exchange messages
 - Containers within a pod can still be managed separately by different teams
+- Lots of benefits from running similar/same containers - e.g., multiple search service containers with a load balancer on the same host
