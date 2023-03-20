@@ -30,7 +30,7 @@ You will need to do 4 tasks:
 1. You need to modify the `bc_pgfault()` amd `flush_block()` in fs/bc.c to issue I/O requests using the `host_read()` and `host_write()` hypercalls, instead of the functions they usually use, when a guest environment is running. Use compiler directives with the `VMM_GUEST` constant to only use your code when a guest env is running.
 2. You will need to complete
 	- `ipc_host_send()` and `ipc_host_recv()` in lib/ipc.c to issue vmcalls
-	- implement the IPC send and receive hypercalls in `handle_vmcall()` (cases `VMX_VMCALL_IPCSEND` and `VMX_VMCALL_IPCRECV`) (**all students**).
+	- implement the IPC send and receive hypercalls in `handle_vmcall()` (cases `VMX_VMCALL_IPCSEND` and `VMX_VMCALL_IPCRECV`).
 3. You will need to extend the `sys_ipc_try_send()` to detect whether the environment is of type `ENV_TYPE_GUEST` or not. 
 4. You need to implement the `ept_page_insert()` function.
 
